@@ -4,5 +4,7 @@
     directory="PloneFormGen/skins/PloneFormGen"/>
  <skin-path name="*">
   <layer name="PloneFormGen" insert-after="custom" />
+  <layer name="plone_deprecated"
+         insert-after="plone_login" insert-before="plone_3rdParty" />
  </skin-path>
 </object>
